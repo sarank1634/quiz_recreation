@@ -1,0 +1,77 @@
+# General OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+*.env
+.env.*
+.env.local
+.envrc
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+build/
+dist/
+.cache/
+.parcel-cache/
+coverage/
+
+# Frontend frameworks
+.next/
+.out/
+.nuxt/
+.svelte-kit/
+storybook-static/
+.cypress_cache/
+playwright-report/
+.vitest/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.eggs/
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# Python build/dist
+build/
+dist/
+
+# Python tooling caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Databases and instances
+instance/
+db.sqlite3
+
+# Misc
+*.pid
+*.seed

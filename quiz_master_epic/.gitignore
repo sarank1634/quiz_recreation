@@ -1,0 +1,89 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# General OS files
+Thumbs.db
+
+# Additional editor swap files
+*.swo
+
+# Environment files
+.env
+*.env
+.env.*
+.env.local
+.envrc
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+build/
+dist/
+.cache/
+.parcel-cache/
+coverage/
+
+# Frontend frameworks
+.next/
+.out/
+.nuxt/
+.svelte-kit/
+storybook-static/
+.cypress_cache/
+playwright-report/
+.vitest/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.eggs/
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# Python build/dist
+build/
+
+# Python tooling caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Databases and instances
+instance/
+db.sqlite3
+
+# Misc
+*.pid
+*.seed
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
